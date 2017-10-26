@@ -96,7 +96,7 @@
                 return false;
             }
 
-            //substitutes WildCardParser.Matches(host, strArray) sitecore.support.177155
+            //substitutes WildCardParser.Matches(host, strArray) sitecore.support.177155 
             private bool WildCarserParserMatches(string value, string[] matchParts)
             {
                 Assert.ArgumentNotNull(value, "value");
